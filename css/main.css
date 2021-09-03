@@ -1,0 +1,153 @@
+.nav {
+  margin-top: 1%;
+  background-color: rgba(0, 0, 0, 0.3);
+  float: right;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav img {
+  margin-top: 2%;
+  width: 2rem;
+  height: auto;
+  margin: 1%;
+}
+
+.carousel h5 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.carousel .p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 13px;
+}
+
+#myCarousel h2 {
+  margin: 0;
+  color: #666;
+  padding-top: 90px;
+  font-size: 52px;
+  font-family: "trebuchet ms", sans-serif;
+}
+#myCarousel .item {
+  text-align: center;
+  height: 300px !important;
+}
+#myCarousel .carousel {
+  margin-top: 20px;
+}
+#myCarousel .bs-example {
+  margin: 20px;
+}
+#myCarousel .carousel.carousel-fade .item {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* ie fix */
+}
+#myCarousel .carousel.carousel-fade .active.item {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  /* ie fix */
+}
+
+.carousel-item {
+  margin-top: 1%;
+  align-items: stretch;
+  border: red solid 1px;
+  text-align: center;
+}
+.carousel-item p {
+  font-size: 125%;
+}
+.carousel-item img {
+  height: 20rem;
+  width: 100%;
+}
+
+body {
+  background-image: url("wood.jpg") !important;
+  color: white !important;
+}
+
+.card {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.card img {
+  width: auto;
+  height: 20rem;
+}
+
+.newbook {
+  flex-direction: row !important;
+  border: red solid 2px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sellmore {
+  border: red solid 2px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sold {
+  border: red solid 2px;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.librairie {
+  border: red solid 2px;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cover .card {
+  display: flex;
+  align-items: center;
+}
+.cover .card .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover .card img {
+  width: 50%;
+  height: 50%;
+}
+
+#footer {
+  margin-top: 1%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#footer .contact {
+  display: flex;
+  flex-flow: column;
+}
+#footer .contact a {
+  color: white !important;
+  text-decoration: none !important;
+}
+#footer .logo img {
+  background-color: transparent;
+  width: 4rem;
+  height: auto;
+  border-radius: 40%;
+}
+
+.compagny {
+  text-align: center;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

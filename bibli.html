@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Librairie fantome</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class='container'>
+    <header>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="">
+            <img src='images/book-18.gif' />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <input type="text" placeholder="rechercher">
+        </li>
+
+
+      </ul>
+    </header>
+
+    <div class="carou">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/book-43.gif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/book-70.gif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/book-3.gif" class="d-block w-100" alt="...">
+     
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="books">
+      <h1>Nouveauté</h1>
+      <div class=newbook>
+
+        <div class="card">
+          <a href="">
+            <img class="card-img-top" src="images/la peur géante.jpg" alt="Card image cap">
+          </a>
+          <button>9,99€</button>
+        </div>
+
+        <div class="card">
+          <a href="">
+            <img src="images/1q84.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/une étude en rouge.jpg">
+           </a>
+           <button>9,99€</button>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/la nuit de la lune bleu.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+
+      </div>
+
+      <h1>Les plus vendus</h1>
+      <div class=sellmore>
+
+        <div class="card">
+          <a href="">
+            <img src="images/la peur géante.jpg">
+          </a>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/1q84.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/une étude en rouge.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/le vide incandescent.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+
+      </div>
+      <h1>En soldes</h1>
+      <div class=sold>
+
+        <div class="card">
+          <a href="">
+            <img src="images/Mener des parties de jeu de role.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/1q84.jpg">
+          </a>
+              <button>9,99€</button>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/une étude en rouge.jpg">
+            <button>9,99€</button>
+          </a>
+        </div>
+        <div class="card">
+          <a href="">
+            <img src="images/le vide incandescent.jpg">
+          </a>
+          <button>9,99€</button>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="col-3"></div>
+      <div class="contact">
+        <a href="">FAQ</a>
+        <a href="">Nous contacter</a>
+        <a href="">Conditions générales de vente</a>
+
+      </div>
+      <div class="col-3"></div>
+      <div class='logo'>
+        <a href=""><img src='images/logo (3).png'></a>
+        <a href=""><img src='images/linkedin.png'></a>
+      </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <p class='compagny'>Il n'y a rien de tout ça vu que je n'existe pas 	
+      &#x00AE;</p>
+</body>
+
+
+
+</html>

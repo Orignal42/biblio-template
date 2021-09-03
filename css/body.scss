@@ -1,0 +1,62 @@
+
+body{
+    background-image: url('wood.jpg')!important;
+    color:white !important;
+    }
+    .card{
+        margin: 5%;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: auto;
+            height: 20rem;
+        }
+    }
+    
+    .newbook{
+        flex-direction: row !important;
+        border: red solid 2px;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    
+    
+    .sellmore{
+        border: red solid 2px;
+        display: flex;
+        flex-flow: row nowrap;
+    
+    }
+    
+    .sold{
+    
+        border: red solid 2px;
+        margin-top:10px ;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .librairie{
+        border: red solid 2px;
+        margin-top:10px ;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .cover{ 
+        .card{
+            display: flex;
+            align-items: center;
+            .button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+            }
+            img{
+                width: 50%;
+                height: 50%;
+            }
+        }
+    }
+    
