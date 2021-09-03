@@ -1,6 +1,10 @@
 
 body{
     background-image: url('wood.jpg')!important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color:white !important;
     }
     .card{
@@ -43,20 +47,24 @@ body{
         flex-flow: row wrap;
     }
     
-    .cover{ 
+
         .card{
             display: flex;
             align-items: center;
-            .button{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-    
+            text-align: center;
+            background-color: transparent;
+            border:red solid 1px;
+            .btn{
+                position: absolute;
+                top:26rem;
+                left:0rem;
+                width: 100%;
             }
-            img{
-                width: 50%;
-                height: 50%;
+            
+         
+      
             }
-        }
-    }
+     
+        
+  
     

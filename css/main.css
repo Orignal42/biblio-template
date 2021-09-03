@@ -71,6 +71,10 @@
 
 body {
   background-image: url("wood.jpg") !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white !important;
 }
 
@@ -111,18 +115,18 @@ body {
   flex-flow: row wrap;
 }
 
-.cover .card {
+.card {
   display: flex;
   align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: red solid 1px;
 }
-.cover .card .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cover .card img {
-  width: 50%;
-  height: 50%;
+.card .btn {
+  position: absolute;
+  top: 26rem;
+  left: 0rem;
+  width: 100%;
 }
 
 #footer {
