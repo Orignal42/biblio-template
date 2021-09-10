@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border:red solid 1px;
+    margin: 5%;
+    justify-content: space-between;
+
+    .btn{
+           
+        width: 100%;
+        z-index: 1;
+     
+    }
+
+    img{
+        width: auto;
+        height: 20rem;
+    }
+ 
+
+    }

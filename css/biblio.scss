@@ -1,0 +1,29 @@
+.newbook{
+    flex-direction: row !important;
+    border: red solid 2px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+.sellmore{
+    border: red solid 2px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.sold{
+
+    border: red solid 2px;
+    margin-top:10px ;
+    display: flex;
+    flex-flow: row wrap;
+}
+.librairie{
+    border: red solid 2px;
+    margin-top:10px ;
+    display: flex;
+    flex-flow: row wrap;
+}
